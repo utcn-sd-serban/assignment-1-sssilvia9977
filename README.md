@@ -49,6 +49,7 @@ Minimum requirements for a passing grade:
  * Unit tests for the service layer.
 
 Additional requirements:
+
 | Requirement                        | Grade |
 |------------------------------------|-------|
 | Hibernate                          |   6   |
@@ -56,6 +57,7 @@ Additional requirements:
 | Feature 3                          |  10   |
 
 Bonus requirements (for compensating for late delivery or to improve the assignment grade):
+
 | Requirement                        | Points |
 |------------------------------------|--------|
 | Spring Data Repositories           | 1.0    |

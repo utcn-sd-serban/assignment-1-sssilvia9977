@@ -42,22 +42,30 @@ spring.datasource.password=<<your DB password>>
 ## Grading
 
 Minimum requirements for a passing grade:
+ * Console "login",
  * Feature 1,
  * In-memory repository,
  * JDBC-backed repository,
  * Abstract factory to select between them,
+ * Hard coded factory implementation selection logic,
  * Unit tests for the service layer.
 
 Additional requirements:
 | Requirement                        | Grade |
 |------------------------------------|-------|
-| Hibernate                          |   6   |
+| Hibernate*                         |   6   |
 | Feature 2                          |   8   |
 | Feature 3                          |  10   |
 
-Bonus requirements (for compensating for late delivery or to improve the assignment grade):
-| Requirement                        | Points |
-|------------------------------------|--------|
-| Spring Data Repositories           | 1.0    |
-| Database init. with Flyway         | 1.0    |
-| Integration tests using H2 DB      | 1.0    |
+**Including a corresponding factory implementation.*
+
+Bonus requirements:
+| Requirement                                                | Points |
+|------------------------------------------------------------|--------|
+| Prepare and present design*                                | 1.0    |
+| Factory implementation selected via application.properties | 0.5    |
+| Spring Data Repositories                                   | 1.0    |
+| Database init. with Flyway                                 | 1.0    |
+| Integration tests using H2 DB                              | 2.0    |
+
+**Prepare a data model, class diagram and package diagram and present it at the laboratory.*

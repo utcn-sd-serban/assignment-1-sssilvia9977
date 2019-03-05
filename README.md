@@ -51,6 +51,7 @@ Minimum requirements for a passing grade:
  * Unit tests for the service layer.
 
 Additional requirements:
+
 | Requirement                        | Grade |
 |------------------------------------|-------|
 | Hibernate*                         |   6   |
@@ -60,6 +61,7 @@ Additional requirements:
 **Including a corresponding factory implementation.*
 
 Bonus requirements:
+
 | Requirement                                                | Points |
 |------------------------------------------------------------|--------|
 | Prepare and present design*                                | 1.0    |
